@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Debugger
+*/x64/*
+
+# Extras
+Browse.*
