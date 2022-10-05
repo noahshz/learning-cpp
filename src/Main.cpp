@@ -33,9 +33,9 @@ int main(int argc, char** argv) {
 	cin >> num1;
 	cout << "Enter a second Number: ";
 	cin >> num2;
-	cout << "Result: " << num1 + num2;
+	cout << "Result: " << num1 + num2 << endl;
 
-	printf("These were youre input numbers: %d & %d", num1, num2);
+	printf("These were youre input numbers: %d & %d \n", num1, num2);
 
 
 	// conditions
@@ -44,11 +44,27 @@ int main(int argc, char** argv) {
 	cin >> age;
 
 	if (age >= 18) {
-		cout << "volljährig";
+		cout << "volljährig" << endl;
 	}
 	else {
-		cout << "minderjährig";
+		cout << "minderjährig" << endl;
 	}
+
+	// arrays
+	int nums[10] = { 1 };
+	int nums2[] = { 1, 2, 3 };
+
+	cout << "Second Number: " << nums2[1] << endl;
+	nums2[1] = 99;
+	cout << "New Second Number: " << nums2[1] << endl;
+
+	// multidimensional arrays
+	int multiNum[3][3] = {
+		{1, 2, 3},
+		{4, 5, 6},
+		{7, 8, 9}
+	};
+	cout << "MultiNumber: " << multiNum[0][1] << endl;
 
 	return 0;
 }
