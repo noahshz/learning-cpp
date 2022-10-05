@@ -1,4 +1,7 @@
 #include <iostream>
+#include <vector>
+#include <string>
+#include <sstream>
 
 using namespace std;
 
@@ -65,6 +68,39 @@ int main(int argc, char** argv) {
 		{7, 8, 9}
 	};
 	cout << "MultiNumber: " << multiNum[0][1] << endl;
+
+	// vectors
+	vector<int> vNums(2);
+	vNums[0] = 1;
+	vNums[1] = 2;
+	vNums.push_back(99);
+	cout << "Vector size: " << vNums.size() << endl;
+
+	// loops
+	// while loop
+	int z_1 = 1;
+	while (z_1 <= 100) {
+		cout << "Round " << z_1 << endl;
+		//if (z_1 == 73) continue;
+		//if (z_1 == 80) break;
+		z_1++;
+	}
+
+	vector<string> words;
+	stringstream ss("Some Random Words this thing pretty cool");
+	string word;
+
+	while (getline(ss, word, ' ')) {
+		words.push_back(word);
+	}
+	// for loop
+	for (int i = 0; i < words.size(); i++) {
+		cout << words[i] << endl;
+	}
+	// foreach loop
+	int iarr1[] = { 1, 2, 4, 2, 90 };
+	for (int x : iarr1) cout << x << endl;
+
 
 	return 0;
 }
