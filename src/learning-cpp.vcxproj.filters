@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="learning-cpp.cpp">
+    <ClCompile Include="01-HelloWorld\HelloWorld.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
