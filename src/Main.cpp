@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 #include <sstream>
+#include <ctime>
 
 using namespace std;
 
@@ -100,7 +101,21 @@ int main(int argc, char** argv) {
 	// foreach loop
 	int iarr1[] = { 1, 2, 4, 2, 90 };
 	for (int x : iarr1) cout << x << endl;
+	// do while loop
+	int secretNumber = rand() % 11;
+	int guess = 0;
+	int tries = 0;
+	do {
+		cout << "Guess the number: ";
+		cin >> guess;
+		if (guess > secretNumber) cout << "Lower!" << endl;
+		if (guess < secretNumber) cout << "Higher!" << endl;
+		tries++;
+	} while (guess != secretNumber);
+	cout << "You guessed the number! You needed " << tries << " tries :)" << endl;
 
+	// strings
+	string str1 = "This is the first test string";
 
 	return 0;
 }
