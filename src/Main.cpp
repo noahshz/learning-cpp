@@ -127,6 +127,7 @@ int main(int argc, char** argv) {
 	if (str4.find("string") != string::npos) {
 		cout << "String index: " << str4.find("string") << endl;
 	}
+	cout << "Substring: " << str4.substr(4, 10) << endl;
 
 
 	cout << str1 << endl;
