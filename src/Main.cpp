@@ -135,5 +135,8 @@ int main(int argc, char** argv) {
 	cout << str3 << endl;
 	cout << str4 << endl;
 
+	cout << "This is another test" << endl;
+
+
 	return 0;
 }
