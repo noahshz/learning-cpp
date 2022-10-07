@@ -135,8 +135,10 @@ int main(int argc, char** argv) {
 	cout << str3 << endl;
 	cout << str4 << endl;
 
-	cout << "This is another test" << endl;
+	string bsp = "test";
 
+	cout << "Address of Variable bsp: " << &bsp << endl;
+	cin.get();
 
 	return 0;
 }
