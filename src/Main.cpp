@@ -3,6 +3,7 @@
 #include <string>
 #include <sstream>
 #include <ctime>
+#include <limits>
 
 using namespace std;
 
@@ -14,7 +15,7 @@ int main(int argc, char** argv) {
 	// data types
 	short int i1 = 1;			// -32768 - +32767
 	int i2 = 50000;			// -2147483648 - +2147483647
-	long int i3 = 7886669669;	// -9223372036854775808 - +9223372036854775807
+	long long int i3 = 17886669669;	// -9223372036854775808 - +9223372036854775807
 	cout << "minimum Integer: " << numeric_limits<int>::min() << endl;
 	cout << "maximum Integer: " << numeric_limits<int>::max() << endl;
 
@@ -48,10 +49,10 @@ int main(int argc, char** argv) {
 	cin >> age;
 
 	if (age >= 18) {
-		cout << "volljährig" << endl;
+		cout << "volljï¿½hrig" << endl;
 	}
 	else {
-		cout << "minderjährig" << endl;
+		cout << "minderjï¿½hrig" << endl;
 	}
 
 	// arrays
@@ -138,7 +139,10 @@ int main(int argc, char** argv) {
 	string bsp = "test";
 
 	cout << "Address of Variable bsp: " << &bsp << endl;
-	cin.get();
+	
+	string t;
+	cout << "Input to end application..";
+	cin >> t;
 
 	return 0;
 }
