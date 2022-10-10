@@ -2,8 +2,13 @@
 #include <string>
 
 int main() {
+    /*
+     * unsigned = Geht nur in +
+     * signed = geht in + und in -
+     */
+    
     // Integers
-    short int i_short = 100;		        // -32768 - +32767
+    unsigned short int i_short = 100;		        // -32768 - +32767
 	int i_int = 5111340;			        // -2147483648 - +2147483647
 	long long int i_long = 17886669669;	    // -9223372036854775808 - +9223372036854775807
 
