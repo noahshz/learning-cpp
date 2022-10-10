@@ -10,7 +10,7 @@ using namespace std;
 
 const double PI = 3.141;
 
-int main(int argc, char** argv) {
+int main() {
 	// user input
 	int num1, num2;
 	cout << "Enter a Number: ";

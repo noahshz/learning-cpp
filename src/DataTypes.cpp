@@ -25,12 +25,5 @@ int main() {
     auto whatami = "Is this me?";
     auto iameverything = true;
 
-
-
-
-
-
-    std::string response;
-    std::getline(std::cin, response);
     return 0;
 }
