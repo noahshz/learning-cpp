@@ -9,6 +9,7 @@ using namespace std;
 
 // Prototypes
 void changeValue(int* pVar);
+void doubleArray(int* arr, int size);
 
 int main() {
     // Change Value of pointer
@@ -24,7 +25,11 @@ int main() {
     cout << "Value: " << *pNum << endl;
 
     // Arrays & Pointers
-
+    int arr[] = {1, 2, 3, 4};
+    int* pArr = arr;
+    cout << "First: " << pArr << endl; 
+    pArr++;
+    cout << "Second: " << pArr << endl;
 
     string t;
     cin >> t;
@@ -34,4 +39,9 @@ int main() {
 // Functions
 void changeValue(int* pVal) {
     *pVal = 18;
+}
+void doubleArray(int* arr, int size) {
+    for(int i = 0; i < size; i++) {
+        arr[i] = arr[i] * 2;
+    }
 }
