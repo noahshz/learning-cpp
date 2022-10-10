@@ -16,11 +16,5 @@ int main() {
     cout << "pow(2, 3) = " << pow(2, 3) << endl; // 2³
     cout << "sqrt(100) = " << sqrt(100) << endl; // squareroot
     cout << "cbrt(100) = " << cbrt(100) << endl; // cuberoot
-
-
-
-
-    string a;
-    cin >> a;
     return 0;
 }
