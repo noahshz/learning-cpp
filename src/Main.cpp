@@ -131,14 +131,12 @@ int main(int argc, char** argv) {
 	}
 	cout << "Substring: " << str4.substr(4, 10) << endl;
 
-
 	cout << str1 << endl;
 	cout << str2 << endl;
 	cout << str3 << endl;
 	cout << str4 << endl;
 
 	string bsp = "test";
-
 	cout << "Address of Variable bsp: " << &bsp << endl;
 
 	Car bmw = Car("BMW", "Schwarz", 143);
