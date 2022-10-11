@@ -31,6 +31,11 @@ int main() {
     pArr++;
     cout << "Second: " << pArr << endl;
 
+    doubleArray(arr, 4);
+    for(int i = 0; i < 4; i++) {
+        cout << "Array: " << arr[i] << endl;
+    }
+
     string t;
     cin >> t;
 
