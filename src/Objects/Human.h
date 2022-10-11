@@ -13,16 +13,17 @@ using namespace std;
 
 class Human {
     protected:
+        string name;
         double height;
         double weight;
         string haircolor;
     public:
-        static int numOfHumans;
-        Human(double height, double width);
-        Human(string haircolor);
-        Human();
+        Human(string name, double height, double weight, string haircolor);
 
         virtual ~Human();
+
+        void setName(string name);
+        string getName();
 
         void setHeight(double height);
         double getHeight();
@@ -30,7 +31,8 @@ class Human {
         void setWeight(double weight);
         double getWeight();
 
-        static int getNumOfHumans();
+        void setColor(string color);
+        string getColor();
     private:
 };
 
