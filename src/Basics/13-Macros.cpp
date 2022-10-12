@@ -12,15 +12,10 @@
 
 using namespace std;
 
-void awaitInput();
+#define PI 3.14159
+#define AREA_CIRCLE(radius) (PI * pow(radius, 2))
 
 int main() {
-
-
-    awaitInput();
-}
-
-void awaitInput() {
-    string input;
-    cin >> input;
+    cout << "Cirlce Area " << AREA_CIRCLE(5) << endl;
+    return 0;
 }
