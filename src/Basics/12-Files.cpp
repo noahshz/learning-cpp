@@ -11,7 +11,6 @@ int main() {
 	string txtToWrite = "";
 	string txtFromFile = "";
 
-
 	// write to file
 	writeToFile.open("test.txt", std::ios_base::out | std::ios_base::app);
 	if(writeToFile.is_open()) {
