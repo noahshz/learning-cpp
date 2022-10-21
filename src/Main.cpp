@@ -15,7 +15,14 @@ using namespace std;
 void awaitInput();
 
 int main() {
+    int* intPtr;
+    intPtr = new int;
 
+    *intPtr = 48;
+
+    cout << *intPtr << endl; 
+
+    delete intPtr;
 
     awaitInput();
 }

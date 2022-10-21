@@ -1,2 +1,0 @@
-Beginning od File
-Hello this is the first line ive ever wrote from the console to the new file.
