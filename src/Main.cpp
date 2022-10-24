@@ -9,20 +9,17 @@
 #include <numeric>
 #include <ctime>
 #include <cmath>
+#include <deque>
+#include <iterator>
+#include <memory>
+#include <stdio.h>
 
 using namespace std;
 
 void awaitInput();
 
 int main() {
-    int* intPtr;
-    intPtr = new int;
 
-    *intPtr = 48;
-
-    cout << *intPtr << endl; 
-
-    delete intPtr;
 
     awaitInput();
 }
