@@ -6,12 +6,10 @@
 
 class Node {
     public:
-        unsigned int id;
-        unsigned short age;
-        std::string name;
-        Node* LeftNode;
-        Node* RightNode;
-        Node();
+        unsigned int data;
+        Node* left;
+        Node* right;
+        Node(unsigned int value);
         ~Node();
 };
 
