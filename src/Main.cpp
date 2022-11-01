@@ -23,7 +23,6 @@ void awaitInput();
 
 int main() {
 
-
     awaitInput();
 }
 
