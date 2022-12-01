@@ -22,7 +22,7 @@ using namespace std;
 void awaitInput();
 
 int main() {
-
+    cout << "Hello World" << endl;
     awaitInput();
 }
 
